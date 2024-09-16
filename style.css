@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 10px 20px;
+}
+
+.nav-item {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+}
+
+.heroSection {
+    background-image: url(./assets/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.heroJumbotron {
+    padding:  20rem 25rem;
+}
+
+.heroJumbotron h1 {
+    font-family: "Merienda", cursive;;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.heroJumbotron p {
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px
+}
+
+button {
+    background-color: #be9c74;
+    border: 8px solid #be9c74;
+    padding: 0 1.5rem;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+}
+
+.ourMenuJumbotron h2 {
+    font-family: "Merienda", cursive;;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.ourMenuJumbotron p {
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px
+}
+
+.ourMenuJumbotron button {
+    background-color: #be9c74;
+    border: 12px solid #be9c74;
+    padding: 0 1rem;
+}
+
+.facilityCardBody h3 {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.facilityCardBody p {
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: start;
+}
+
+.popularCardBody h3 {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 400; 
+}
+
+.galleryCardHeader img {
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+
+.teamCardBody h3 {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 400; 
+}
+
+span {
+    color: #be9c74;
+}
+
+h3{
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.headingTitle h2{
+    font-family: "Merienda", cursive;;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.iconsCardHeader {
+    /* width: 50%; */
+    height: 6rem;
+    width: 6rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #be9c74;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+.formBlock {
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+.formBlock button {
+    background-color: #be9c74;
+    border: 12px solid #be9c74;
+    padding: 0 15rem;
+}
+
+
+.formBlock button a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+}
+
+.iconsCardBody h3 {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: .5rem;    
+}
+
+.iconsCardBody p {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1.5rem    
+}
+
+.copyright p {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
