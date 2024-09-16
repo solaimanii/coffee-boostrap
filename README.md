@@ -1,2 +1,0 @@
-# coffee-boostrap
-coffee-boostrap
